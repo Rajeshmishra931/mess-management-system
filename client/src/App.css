@@ -1,0 +1,52 @@
+.App {
+  background-image: linear-gradient(
+    45deg,
+    rgb(247, 128, 128),
+    rgb(148, 245, 148),
+    rgb(240, 240, 122)
+  );
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .img {
+  height: 50vh;
+  width: 50vw;
+  background-image: url("./Assets/nfctag.jpeg");
+  background-repeat: no-repeat;
+} */
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.btn {
+  background-color: #73d8f1;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 24px;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .App-logo {
+  height: 20vmin;
+  pointer-events: none;
+} */
+.App-logo {
+}
